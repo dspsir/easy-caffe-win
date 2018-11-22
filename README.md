@@ -1,5 +1,5 @@
 # easy-caffe-win
-The source of caffe easy to be compiled on windows 10 with vs2015/2017, python2.7 and cuda9.x/10.x .
+The caffe source easy to be compiled on windows 10 with vs2015/2017, python2.7 and cuda9.x/10.x .
 
 How to compile
 
