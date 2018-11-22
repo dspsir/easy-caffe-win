@@ -10,7 +10,7 @@ How to compile
 5) Install the CMake, no matter what version. I compiled the source with CMake 3.12.4 .
 6) If you want to compile with vs2017， run the ${Source Dir}\caffe-windows\vc2017_py27\compile.bat.
    Or, if you want to compile with vs2015, run the ${Source Dir}\caffe-windows\vc2015_py27\compile.bat.
-7) To the end, 
+7) To the end, visual studio projects will be in ${Source Dir}\caffe-windows\vc2015_py27\build or ${Source Dir}\caffe-windows\vc2017_py27\build, according to which compile.bat you chose.
 8) That's all. Except for easy to compile on windows10 with vs2015/2017 x64, python2.7 and cuda9.x/10.x, it's the same as the other caffe sources.
 
 This is my first github project. Just for trying how to use it.
