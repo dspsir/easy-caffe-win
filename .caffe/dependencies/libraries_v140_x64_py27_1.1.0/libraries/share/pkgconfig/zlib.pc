@@ -1,0 +1,13 @@
+prefix=C:/Users/guillaume/work/caffe-builder/build_v140_x64/libraries
+exec_prefix=C:/Users/guillaume/work/caffe-builder/build_v140_x64/libraries
+libdir=C:/Users/guillaume/work/caffe-builder/build_v140_x64/libraries/lib
+sharedlibdir=C:/Users/guillaume/work/caffe-builder/build_v140_x64/libraries/lib
+includedir=C:/Users/guillaume/work/caffe-builder/build_v140_x64/libraries/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
